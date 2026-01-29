@@ -69,7 +69,8 @@ main{
     margin-bottom: 10px;    
 }
 footer{
-    position: fixed;
+    position: sticky;
+    bottom: 0;
     background-color: black;
     color: var(--text-color);
     border: var(--border);

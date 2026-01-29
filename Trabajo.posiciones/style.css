@@ -1,0 +1,80 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ :root{
+    --backgraund-color: black;
+    --text-color: green;
+    --border: 2px dotted greenyellow;
+ }
+body{
+    font-family: Arial, sans-serif;
+    background-color: var(--backgraund-color);
+    color: var(--text-color);
+}
+header{
+    position: fixed;
+    background-color: black;
+    color: var(--text-color);
+   border: var(--border);
+    height: 40px;
+    width: 100%;
+    top: 0;
+    z-index: 1000;  
+}
+header h1{
+    margin: 0;
+    padding: 10px;
+    font-size: 15px; 
+}
+main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: var(--backgraund-color);
+    color: var(--text-color);
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    border: var(--border);
+    min-height: 70vh;   
+}
+.content{
+    padding: 10px;
+    width: 80%;
+}
+.content h2{
+    margin-bottom: 10px;
+    font-size: 18px;  
+}
+.sidebar{
+   position: absolute;
+   border: var(--border);
+   right: 10px;
+   margin-top: 20px;
+    padding: 20px;   
+}
+ .features{
+    position: relative;
+   bottom: 20px;
+  border: var(--border);
+  margin-top: 200px;
+  text-align: center;
+
+}
+.feature{
+    margin-bottom: 10px;    
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: var(--text-color);
+    border: var(--border);
+    height: 40px;
+    width: 100%;
+    z-index: 999;
+}

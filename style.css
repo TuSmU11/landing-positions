@@ -70,7 +70,6 @@ main{
 }
 footer{
     position: fixed;
-    bottom: 0;
     background-color: black;
     color: var(--text-color);
     border: var(--border);
